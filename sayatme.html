@@ -162,9 +162,39 @@ Say About Me</h1>
 </div>
 <!-- ----------------------------------------------- -->
 <div class="container jf-form" align = "center">
-<form method="POST" action="http://formspree.io/hackernil007@gmail.com">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
+<form data-licenseKey="" name="nilesh" id="nilesh" action='https://formspree.io/hackernil007@gmail.com' method='post' enctype='multipart/form-data' novalidate autocomplete="on">
+
+<input type="hidden" id="serverValidationFields" name="serverValidationFields" value="">
+<div class="form-group f1 required" data-fid="f1">
+  <label class="control-label" for="f1">Say About Me</label>
+	</br> </br>
+ <textarea rows="5" cols="30" placeholder = "Be Honest and Sincere, you'll stay anonymous. ">
+</textarea> 
+
+</div>
+
+<div class="form-group submit f0 " data-fid="f0" style="position: relative;">
+  <label class="control-label sr-only" for="f0" style="display: block;">Say It</label>
+
+  <div class="progress" style="display: none; z-index: -1; position: absolute;">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:100%">
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary btn-lg" style="z-index: 1;">
+  		Say It
+  </button>
+
+</div><div class="clearfix"></div>
+
+<div class="submit">
+  <p class="error bg-warning" style="display:none;">
+    Please check the required fields.  </p>
+</div>
+
+<div class="clearfix"></div>
+
+
 </form>
 
 
